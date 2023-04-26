@@ -1,0 +1,91 @@
+header {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+}
+
+.navbar-brand {
+  list-style-type: none;
+  overflow: hidden;
+  text-align: center;
+  background-color: transparent;
+  align-items: center;
+}
+
+.navbar {
+	color: white;
+	position: absolute;
+	top: 0px;
+	align-items: center;
+	width: 100%;
+	padding-top: 32px;
+	display: flex;
+	justify-content: space-between;
+	background-color: transparent;
+}
+
+.btn {
+	background-color: white;
+	font-size: 16px;
+	line-height: 20px;
+	height: 56px;
+	width: 175px;
+	border-radius: 8px;
+	padding: 18px 34px;
+	color: rgba(56, 29, 219, 1);
+}
+
+.navbar-nav {
+  list-style-type: none;
+  overflow: hidden;
+  text-align: center;
+  background-color: transparent;
+}
+
+.navbar-nav li {
+	margin-right: auto;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.item_navbar {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown p {
+	text-align: left;
+	color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown img {
+	padding-left: 8px;
+	padding-bottom: 4px;
+}
+
+.navbar-nav ul {
+  margin-top: 15px;
+}

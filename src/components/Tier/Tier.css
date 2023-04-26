@@ -1,0 +1,147 @@
+.tier {
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 240px;
+	color: #909090;
+}
+
+.tier h2 {
+	text-align: center;
+	padding-bottom: 62px;
+	font-weight: 700;
+	color: rgba(34, 34, 34, 1);
+}
+
+.tier p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #222222;
+	margin: 0;
+}
+
+.row_tier {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+@media (max-width: 800px) {
+  .row_tier {
+    flex-direction: column;
+  }
+}
+
+.column_tier {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px 0px 30px;
+	gap: 26px;
+	width: 370px;
+	height: 434px; 
+	color: #FFFFFF;
+	box-shadow: 0px 20px 100px rgba(34, 34, 34, 0.15);
+	border-radius: 20px;
+	margin-right: 20px;
+}
+
+.column_tier h3 {
+	width: 310px;
+	height: 38px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 38px;
+	text-align: center;
+	color: #222222;
+	margin-top: 26px;
+}
+
+#price1 {
+	width: 143px;
+	height: 73px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 73px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #222222;
+}
+
+#standard h3 {
+	color: rgba(56, 29, 219, 1);;
+}
+
+#price2 {
+	width: 143px;
+	height: 73px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 60px;
+	text-align: center;
+	color: rgba(56, 29, 219, 1);
+}
+
+#premium h3 {
+	color: rgba(252, 82, 82, 1);
+}
+
+#price3 {
+	width: 143px;
+	height: 73px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 60px;
+	text-align: center;
+	color: rgba(252, 82, 82, 1);
+}
+
+.tier button {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 18px 34px;
+	width: 166px;
+	height: 56px;
+	border-radius: 5px;
+}
+
+#basic button {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	color: #381DDB;
+	background-color: transparent;
+	border-color: #381DDB;
+}
+
+#standard button {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	background-color: rgba(56, 29, 219, 1);
+	color: rgba(255, 255, 255, 1);
+	border: transparent;
+}
+
+#premium button {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	color: #381DDB;
+	background-color: transparent;
+	border-color: #381DDB;
+}

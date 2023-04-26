@@ -1,0 +1,54 @@
+footer {
+	width: 100%;
+	min-height: 180px;
+	background-color: rgba(34, 34, 34, 1);
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	align-items: flex-end;
+}
+
+#logo_footer {
+	margin-top: 40px;
+	margin-left: 200px;
+}
+
+.row_footer1 {
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+}
+
+.row_footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 45px;
+	padding-bottom: 30px;
+}
+
+.row_footer a {
+	margin-right: 30px;
+}
+
+.redes_sociais {
+  padding-left: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.item {
+  margin-right: auto;
+  display: inline-block;
+  padding-right: 30px;
+}
+
+#marca_dagua {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	color: lightgray;
+}

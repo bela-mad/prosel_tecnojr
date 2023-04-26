@@ -1,0 +1,73 @@
+@media (max-width: 800px) {
+  .row_musik {
+    flex-direction: column;
+  }
+}
+
+.aboutmusik {
+	margin-bottom: 240px;
+}
+
+.aboutmusik h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 34px;
+	font-weight: 700;
+	text-align: left;
+	margin-top: 107px;
+	margin-bottom: 32px;
+}
+
+.aboutmusik p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: left;
+	margin-bottom: 80px;
+	height: 120px;
+	max-width: 570px;
+	color: #222222;
+	opacity: 0.7;
+}
+
+.column_musik {
+  width: 50%;
+  padding: 15px;
+  align-self: center;
+}
+
+#img_musik {
+	width: 464px;
+	height: 470px;
+	border-radius: 24px;
+	margin-top: 40px;
+	margin-right: 40px;
+	float: right;
+}
+
+.row_musik {
+	display: flex;
+	flex-direction: row;
+}
+
+.button_musik {
+	align-items: center;
+	padding: 18px 34px;
+	width: 199px;
+	height: 60px;
+	background: #381DDB;
+	color: rgba(255, 255, 255, 1);
+	box-shadow: 0px 10px 30px rgba(56, 29, 219, 0.2);
+	border-radius: 8px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	border: transparent;
+	text-align: left;
+	transition: background-color 1s;
+}
+
+.button_musik:hover {
+  background-color: rgba(192, 0, 150, 1);
+  box-shadow: 5px 5px 15px rgba(56, 29, 219, 1);
+}

@@ -1,0 +1,19 @@
+.em-construcao {
+  background-color: white;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+#img_emconstrucao {
+  display: block;
+  margin: 4rem auto;
+}
+
+.em-construcao p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 73px;
+  margin-bottom: 4rem;
+}

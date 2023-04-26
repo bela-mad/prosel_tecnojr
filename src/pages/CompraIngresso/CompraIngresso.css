@@ -1,0 +1,50 @@
+.compraIngresso {
+  height: 490px;
+}
+
+.compraIngresso h2 {
+  margin: 160px 0px 60px 230px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 130%;
+  color: rgba(34, 34, 34, 1);
+}
+.row_ingresso {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.column_ingresso {
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+}
+
+.buttonIngresso {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 90px;
+  margin-right: 200px;
+}
+
+#buttonIngresso {
+  align-items: center;
+  align-self: center;
+  justify-content: flex-end;
+  padding: 18px 34px;
+  width: 164px;
+  height: 56px;
+  color: white;
+  background: #FC5252;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  border-radius: 8px;
+  border: transparent;
+}
