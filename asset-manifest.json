@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/prosel/static/css/main.2dc78131.css",
+    "main.js": "/prosel/static/js/main.d9a32aff.js",
+    "static/js/787.28cb0dcd.chunk.js": "/prosel/static/js/787.28cb0dcd.chunk.js",
+    "static/media/img_inicio.png": "/prosel/static/media/img_inicio.af5207dc4a32645b4440.png",
+    "static/media/singers.png": "/prosel/static/media/singers.4bdbd2a5ba332b1ba2ed.png",
+    "static/media/about_musik.png": "/prosel/static/media/about_musik.2b96dbd548a851a57712.png",
+    "static/media/em_construcao.png": "/prosel/static/media/em_construcao.995d49f41706bba60af6.png",
+    "static/media/img_contactus.png": "/prosel/static/media/img_contactus.9d0d1c1105d984f9795a.png",
+    "static/media/logo.svg": "/prosel/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/prosel/index.html",
+    "main.2dc78131.css.map": "/prosel/static/css/main.2dc78131.css.map",
+    "main.d9a32aff.js.map": "/prosel/static/js/main.d9a32aff.js.map",
+    "787.28cb0dcd.chunk.js.map": "/prosel/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2dc78131.css",
+    "static/js/main.d9a32aff.js"
+  ]
+}
